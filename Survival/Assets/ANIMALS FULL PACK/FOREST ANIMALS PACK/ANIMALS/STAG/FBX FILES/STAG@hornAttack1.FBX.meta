@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 02465e8ec719dda48bf061bb4d2aa093
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: STAG_
+    100004: STAG_ Head
+    100006: STAG_ L Calf
+    100008: STAG_ L Clavicle
+    100010: STAG_ L Finger0
+    100012: STAG_ L Foot
+    100014: STAG_ L Forearm
+    100016: STAG_ L Hand
+    100018: STAG_ L HorseLink
+    100020: STAG_ L Thigh
+    100022: STAG_ L Toe0
+    100024: STAG_ L UpperArm
+    100026: STAG_ Neck
+    100028: STAG_ Neck1
+    100030: STAG_ Neck2
+    100032: STAG_ Pelvis
+    100034: STAG_ R Calf
+    100036: STAG_ R Clavicle
+    100038: STAG_ R Finger0
+    100040: STAG_ R Foot
+    100042: STAG_ R Forearm
+    100044: STAG_ R Hand
+    100046: STAG_ R HorseLink
+    100048: STAG_ R Thigh
+    100050: STAG_ R Toe0
+    100052: STAG_ R UpperArm
+    100054: STAG_ Spine
+    100056: STAG_ Spine1
+    400000: //RootNode
+    400002: STAG_
+    400004: STAG_ Head
+    400006: STAG_ L Calf
+    400008: STAG_ L Clavicle
+    400010: STAG_ L Finger0
+    400012: STAG_ L Foot
+    400014: STAG_ L Forearm
+    400016: STAG_ L Hand
+    400018: STAG_ L HorseLink
+    400020: STAG_ L Thigh
+    400022: STAG_ L Toe0
+    400024: STAG_ L UpperArm
+    400026: STAG_ Neck
+    400028: STAG_ Neck1
+    400030: STAG_ Neck2
+    400032: STAG_ Pelvis
+    400034: STAG_ R Calf
+    400036: STAG_ R Clavicle
+    400038: STAG_ R Finger0
+    400040: STAG_ R Foot
+    400042: STAG_ R Forearm
+    400044: STAG_ R Hand
+    400046: STAG_ R HorseLink
+    400048: STAG_ R Thigh
+    400050: STAG_ R Toe0
+    400052: STAG_ R UpperArm
+    400054: STAG_ Spine
+    400056: STAG_ Spine1
+    7400000: hornAttack1
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: hornAttack1
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: STAG_
+        weight: 1
+      - path: STAG_/STAG_ Pelvis
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ L Thigh
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ L Thigh/STAG_ L Calf
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ L Thigh/STAG_ L Calf/STAG_ L HorseLink
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ L Thigh/STAG_ L Calf/STAG_ L HorseLink/STAG_
+          L Foot
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ L Thigh/STAG_ L Calf/STAG_ L HorseLink/STAG_
+          L Foot/STAG_ L Toe0
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ R Thigh
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ R Thigh/STAG_ R Calf
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ R Thigh/STAG_ R Calf/STAG_ R HorseLink
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ R Thigh/STAG_ R Calf/STAG_ R HorseLink/STAG_
+          R Foot
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ R Thigh/STAG_ R Calf/STAG_ R HorseLink/STAG_
+          R Foot/STAG_ R Toe0
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ L Clavicle
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ L Clavicle/STAG_
+          L UpperArm
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ L Clavicle/STAG_
+          L UpperArm/STAG_ L Forearm
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ L Clavicle/STAG_
+          L UpperArm/STAG_ L Forearm/STAG_ L Hand
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ L Clavicle/STAG_
+          L UpperArm/STAG_ L Forearm/STAG_ L Hand/STAG_ L Finger0
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ Neck1
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ Neck1/STAG_
+          Neck2
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ Neck1/STAG_
+          Neck2/STAG_ Head
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ R Clavicle
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ R Clavicle/STAG_
+          R UpperArm
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ R Clavicle/STAG_
+          R UpperArm/STAG_ R Forearm
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ R Clavicle/STAG_
+          R UpperArm/STAG_ R Forearm/STAG_ R Hand
+        weight: 1
+      - path: STAG_/STAG_ Pelvis/STAG_ Spine/STAG_ Spine1/STAG_ Neck/STAG_ R Clavicle/STAG_
+          R UpperArm/STAG_ R Forearm/STAG_ R Hand/STAG_ R Finger0
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: STAG_
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
